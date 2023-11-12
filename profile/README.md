@@ -60,6 +60,8 @@ import { store } from "./store/store";
 - docker 를 통한 SpringBoot/React Project 실행 (자체 이미지가 아닌 상용 이미지를 pull 하여 서버 내에서 실행파일을 직접 build 하여 execute)
 - Nginx 를 통한 reverse-proxy 를 구현
 - https 프로토콜 적용
+
+  ![스크린샷 2023-11-12 231511](https://github.com/YouquizProject/.github/assets/71763322/736d0fd6-aed5-450e-b451-160ec0037540)
  
 <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white"> 
 <img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=for-the-badge&logo=Amazon RDS&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
