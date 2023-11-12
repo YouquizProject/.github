@@ -53,6 +53,7 @@ import { store } from "./store/store";
 </Provider>
 ```
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
+<img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white">
 
 ### `AWS` 서비스를 이용한 아키텍쳐 구축/배포
 - EC2, RDS FreeTier 인스턴스를 통한 서버, DB storage 구축 (DB는 Mysql 사용)
