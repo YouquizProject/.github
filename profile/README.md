@@ -11,6 +11,43 @@ C타입 : 포스트 코로나 시대의 혼란을 해결하는 SW 개발
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white">  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">  <img src="https://img.shields.io/badge/Naver-03C75A?style=for-the-badge&logo=Naver&logoColor=white"> 
 
 - 
+### `Redux-toolkit`으로 상태 관리
+-_로그인 시 user의 type(student, teacher)과 id 등 정보를 저장_<br>
+-_각 user에 적합한 정보 할당_<br>
+-_각 퀴즈 챕터의 데이터를 불러오기_<br>
+
+>store.jsx
+```JavaScript
+const reducers = combineReducers({
+  auth: authSlice.reducer,
+  chap: chapSlice.reducer,
+  teacher: teacherSlice.reducer,
+  result: resultSlice.reducer,
+  chap_id: chapIdSlice.reducer,
+  register: registerSlice.reducer,
+});
+  
+const persistConfig = {
+  key: "root",
+  storageSession,
+};
+const persistedReducer = persistReducer(persistConfig, reducers);
+
+export const store = configureStore({
+  reducer: persistedReducer,
+  devTools: process.env.NODE_ENV !== "production",
+  middleware: [thunk],
+});
+```
+>index.jsx
+```JavaScript
+import { Provider } from 'react-redux';
+import { store } from "./store/store";
+
+<Provider store={store}>
+...
+</Provider>
+```
 
 
 ## 시연 영상
