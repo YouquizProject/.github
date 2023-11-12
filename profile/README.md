@@ -10,7 +10,8 @@ C타입 : 포스트 코로나 시대의 혼란을 해결하는 SW 개발
 ## 프로젝트에 활용된 기술
 
 ### `SpringBoot` 로 WAS 구현
-
+- 16개의 api 를 구현 
+- jpa/hibernate 를 통한 ORM 구현
 <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white"> 
 <img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=for-the-badge&logo=Apache Tomcat&logoColor=black"> 
  
