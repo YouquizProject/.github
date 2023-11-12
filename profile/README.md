@@ -8,9 +8,12 @@ C타입 : 포스트 코로나 시대의 혼란을 해결하는 SW 개발
 
 
 ## 프로젝트에 활용된 기술
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white">  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">  <img src="https://img.shields.io/badge/Naver-03C75A?style=for-the-badge&logo=Naver&logoColor=white"> 
 
+### `SpringBoot` 로 WAS 구현
 
+<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white"> 
+<img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=for-the-badge&logo=Apache Tomcat&logoColor=black"> 
+ 
 ### `Redux-toolkit`으로 상태 관리
 -_로그인 시 user의 type(student, teacher)과 id 등 정보를 저장_<br>
 -_각 user에 적합한 정보 할당_<br>
@@ -48,6 +51,17 @@ import { store } from "./store/store";
 ...
 </Provider>
 ```
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
+
+### `AWS` 서비스를 이용한 아키텍쳐 구축/배포
+- EC2, RDS FreeTier 인스턴스를 통한 서버, DB storage 구축 (DB는 Mysql 사용)
+- docker 를 통한 SpringBoot/React Project 실행 (자체 이미지가 아닌 상용 이미지를 pull 하여 서버 내에서 실행파일을 직접 build 하여 execute)
+- Nginx 를 통한 reverse-proxy 를 구현
+ 
+<img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white"> 
+<img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=for-the-badge&logo=Amazon RDS&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">  
+<img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=NGINX&logoColor=white">  
 
 
 ## 시연 영상
