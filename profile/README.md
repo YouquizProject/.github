@@ -71,7 +71,10 @@ import { store } from "./store/store";
 
 
 ## 시연 영상
+youtube 링크 : https://www.youtube.com/watch?v=OkDOK4wqxKs
 
+현재 배포중인 상태로 영상과 같이 접속하셔서 이용하실 수 있습니다. </br>
+교직원 회원가입은 불가능하고,(DB 오류날 가능성이 있음) 학생 회원 로그인/회원가입 만 가능하며 마음껏 문제를 풀고 결과를 확인하실 수 있습니다. youquiz.site 로 검색했을 때 나오지 않는다면 www.youquiz.site 로 검색하시면 됩니다.
 
 ## 팀원 및 참고 자료
 <table>
